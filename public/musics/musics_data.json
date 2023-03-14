@@ -1,0 +1,81 @@
+[
+    {
+
+        "name": "Lutar pelo que é meu", 
+        "artist": "Charlie Brown Jr.",   
+        "instruments": [
+            {
+                "id": 0,
+                "name": "Bass",
+                "url": "./musics/lutar_pelo_que_e_meu/bass.mp3"
+            }, {
+                "id": 1,
+                "name": "Drums",
+                "url": "./musics/lutar_pelo_que_e_meu/drums.mp3"
+            }, {
+                "id": 2,
+                "name": "Guitar",
+                "url": "./musics/lutar_pelo_que_e_meu/guitar.mp3"
+            }, {
+                "id": 3,
+                "name": "Vocals",
+                "url": "./musics/lutar_pelo_que_e_meu/vocals.mp3"
+            }
+        ]
+    },
+
+    {
+
+        "name": "I was made for lovin' you", 
+        "artist": "Kiss",   
+        "instruments": [
+            {
+                "id": 0,
+                "name": "Bass",
+                "url": "./musics/i_was_made_for_lovin_you/bass.mp3"
+            }, {
+                "id": 1,
+                "name": "Drums",
+                "url": "./musics/i_was_made_for_lovin_you/drums.mp3"
+            }, {
+                "id": 2,
+                "name": "Guitar",
+                "url": "./musics/i_was_made_for_lovin_you/guitar.mp3"
+            }, {
+                "id": 3,
+                "name": "Vocals",
+                "url": "./musics/i_was_made_for_lovin_you/vocals.mp3"
+            }
+        ]
+    },
+
+    {
+        "name": "Test Music", 
+        "artist": "Test Artist",  
+        "instruments": [
+            {
+                "id": 0,
+                "name": "Backs",
+                "url": "./musics/test_music/backs.mp3" 
+            }, {
+                "id": 1,
+                "name": "Bass",
+                "url": "./musics/test_music/bass.mp3"
+            }, {
+                "id": 2,
+                "name": "Drums",
+                "url": "./musics/test_music/drums.mp3"
+            }, {
+                "id": 3,
+                "name": "Guitar",
+                "url": "./musics/test_music/guitar.mp3"
+            }, {
+                "id": 4,
+                "name": "Keys",
+                "url": "./musics/test_music/keys.mp3"
+            }
+        ]
+    }
+]
+
+
