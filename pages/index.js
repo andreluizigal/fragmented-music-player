@@ -157,6 +157,10 @@ export default function Player() {
         
       </div>
     </div>
+
+    <footer className={styles.footer}>
+      <p>Developed by <a target="_blank" href="https://github.com/andreluizigal">andreluizigal</a></p>
+    </footer>
   </main>
   );
 

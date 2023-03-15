@@ -9,8 +9,6 @@
     color: #E1E1E6;
 }
 
-
-
 .playerBox {    
     max-width: 500px;
     width: 90%;
@@ -68,6 +66,10 @@
     cursor: pointer;
 }
 
+.playerBox button:hover {
+    transform: scale(1.1);
+}
+
 .musicInfo {
     padding: 10px;
     text-align: center;
@@ -75,6 +77,10 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     
+}
+
+.musicInfo input {
+    cursor: pointer;
 }
 
 .musicInfo button {
@@ -95,5 +101,68 @@
     cursor: default;
 }
 
+.footer p {
+    text-align: center;
+    color: gray;
+}
 
+.footer a {
+    color: #E62964;
+}
 
+/* animations */
+.playerBox {
+    animation: fromBottom 1.5s backwards;
+}
+
+.playerBox header{
+    animation: fromTop 1s backwards;
+    animation-delay: 1s;
+    
+}
+
+.pageBody ul {
+    animation: fromLeft 1s backwards;
+    animation-delay: 1.5s;
+}
+
+.musicInfo {
+    animation: fromBottom 1s backwards;
+    animation-delay: 1s;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes fromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
